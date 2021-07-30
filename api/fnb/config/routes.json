@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fnbs",
+      "handler": "fnb.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fnbs/count",
+      "handler": "fnb.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fnbs/:id",
+      "handler": "fnb.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fnbs",
+      "handler": "fnb.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fnbs/:id",
+      "handler": "fnb.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fnbs/:id",
+      "handler": "fnb.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

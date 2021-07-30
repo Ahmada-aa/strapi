@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "musiks",
+  "info": {
+    "name": "Musik",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Code": {
+      "type": "integer"
+    },
+    "event_name": {
+      "type": "string"
+    },
+    "organizer": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
